@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.image {
+    width: 90px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+i {
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.two {
+    display: flex;
+    margin-right: 55px;
+    border: none;
+
+}
+
+.input {
+    width: 400px;
+    height: 10px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+}
+
+.but1 {
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #ddd;
+    width: 58px;
+    padding: 0;
+}
+
+.but2 {
+    border-radius: 24px;
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    border: 1px solid #ddd;
+    align-items: center;
+}
+
+.three {
+    display: flex;
+    margin-right: 20px;
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.Hr {
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    border: none;
+}
+
+.home_con {
+    display: flex;
+    align-items: center;
+    margin: 7px;
+    padding: 1px;
+}
+
+.size {
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.home_con1 {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+.home {
+    display: flex;
+    width: 13%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.tex {
+    background: #dbdbdb;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 5px solid #dbdbdb;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.contanier {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tex1 {
+    background: #dbdbdb;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 5px solid #dbdbdb;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.tex:hover {
+    cursor: pointer;
+}
+
+.tex1:hover {
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: 500px;
+}
+
+.thumb1 {
+    width: 285px;
+    height: 160px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    flex-grow: 1;
+    flex-basis: 15%;
+    margin-left: 10px;
+
+}
+
+.h {
+    margin-top: 10px;
+}
+
+.thumb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 0px;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.chan {
+    margin-left: 40px;
+    color: #606060;
+    padding-top: 0px;
+}
+
+.ima {
+    border-radius: 10px;
+}
+
+.home_con:hover {
+    cursor: pointer;
+    background: #dbdbdb;
+    border-radius: 5px;
+
+}
+
+.home_con1:hover {
+    cursor: pointer;
+    background: #dbdbdb;
+    border-radius: 5px;
+
+}
+.short{
+    margin-left: 5px;
+}
